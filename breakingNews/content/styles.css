@@ -1,0 +1,434 @@
+body>header {
+    background: #eee;
+    padding: 5px;
+}
+body {
+    color: black;
+    background-color: #97C1FB; ;
+}
+main{
+
+}
+body>header>a>img, body>header a  {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0px 5px;
+    font-size: 1.2em;
+}
+
+body> footer {
+    background: #eee;
+    padding: 5px;
+    text-align: center;
+    bottom: 10px;
+    clear: both;
+    position: absolute;
+    right: 0;
+    left: 0;
+}
+footer {
+    background: #eee;
+    padding: 5px;
+    text-align: center;
+    bottom: 10px;
+    clear: both;
+    position: absolute;
+    right: 0;
+
+    left: 0;
+}
+table th, table td {
+    background: #DDD;
+    padding: 5px;
+}
+
+ul#messages li {
+    display: block;
+    width: 80%;
+    margin: 5px auto;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+ul#messages li.info {
+    background: #7f7;
+}
+
+ul#messages li.error {
+    background: #d00;
+    color: white;
+}
+
+.validation-error {
+    vertical-align: top;
+    margin-left: 10px;
+    color: red;
+}
+
+#logged-in-info {
+    float: right;
+    margin-top: 18px;
+}
+
+#logged-in-info form {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+body > aside {
+    float: right;
+    width: 200px;
+    background: #CCC;
+    padding: 15px;
+    margin-left: 20px;
+
+}
+
+body>aside h2 {
+    margin: 5px 0px 15px 0px;
+}
+
+body>aside a {
+    display: block;
+    margin: 5px 0px;
+    text-decoration: none;
+}
+
+body>main:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+.home{
+    float:right;
+    color: #9d9d9d;
+}
+.home a{
+    color: #9d9d9d;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.hello {
+    float: right;
+    color: #9d9d9d;
+    margin-top: 12%;
+}
+#myNavbar{
+
+}
+.homeNav{
+display: inline-block;
+
+}
+@media screen and (max-device-width:768px ) {
+    #myNavbar {
+
+        width: 80%;
+
+    }
+    .home {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        float: left;
+        text-align: center;
+        margin-left: 10px;
+    }
+    .hello{
+        float: left;
+    }
+}
+
+.avatar{
+    width: 65px;
+    height: 65px;
+    border-radius: 25%;
+}
+
+hr.tech{
+    background-color:#e0e0e0;height:2em;
+    display: block;
+    margin: 0px;
+    width: 100%;
+    border: 0;
+}
+
+.pofile-container{
+    background-color: #F16623;
+    width    : 50%;
+    height   : 50%;
+    left     : 30%;
+    top      : 100px;
+    padding: 30px;
+    border-radius: 20px;
+    margin-left : -100px; /* half of the width  */
+    margin-top  : 30px;
+}
+.modal-content{
+    background-color: #F16623;
+}
+.profilePicture{
+    width: 80%;
+    height: 80%;
+    border-radius: 50%;
+}
+.pofile-container span {
+    font-size: 1.6em;
+}
+.albumCoverImage{
+    background-color: #F16623;
+    border-radius: 20px;
+    padding: 30px;
+    height: 75%;
+
+}
+.userInfo {
+    font-size: 1.8em;
+}
+.avatartImg :focus,a:hover{
+background: none;
+}
+.avatartImg{
+    float: left;
+}
+@media only screen and (min-device-width: 768px) {
+    .hello span {
+        margin-left: 40px;
+        margin-top: 40px;
+        font-size: 1.4em;
+
+    }
+}
+@media only screen and (max-width: 768px) {
+    .pofile-container
+     {
+        width: 100%
+    }
+}
+@media only screen and (max-width: 768px) {
+    .avatar,.hello
+    {
+        float: left;
+    }
+    .avatar img
+    {
+        float: left;
+    }
+   #myNavbar{
+       width: 100%;
+   }
+}
+.modalBtn{
+    width: 80%;
+}
+.modalBtn2{
+    width: 84%;
+}
+.fade.in {
+
+}
+.myModal{
+    width: 80%;
+}
+.postTitle{
+    background-color: #46b8da;
+    border-radius: 6px;
+    margin: 2px;
+    font-size: 1.2em;
+}
+.btnContainer{
+    margin-top: 4%;
+}
+.coverImg{
+    min-width: 75%;
+    min-height: 50%;
+
+}
+.fileUpload {
+    position: relative;
+    overflow: hidden;
+    margin: 10px;
+}
+.fileUpload input.upload {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    cursor: pointer;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+.profileInfo{
+    overflow: auto;
+}
+.albumCover{
+    width: 75%;
+    height:75%;
+}
+.addImagemodal
+{
+    background-color: #5bc0de;
+    opacity: 0.6;
+    width: 100%;
+    height:100%;
+}
+.addImageForm{
+    position: absolute;
+    top: 40% ;
+    left: 25% ;
+    background-color: white;
+   padding: 2%;
+    border-radius: 20px;
+}
+.albumImageContainer{
+    background-color: #F16623;
+   padding: 2%;
+}
+.albumIMg
+{
+    width: 100%;
+    height: 100%;
+}
+.tashak
+{
+    background-image: url("images/blog_images/images.png");
+}
+.headerHome a{
+color: white;
+}
+.topNav{
+    background-color: white;
+    color: white;
+}
+.topNav a{
+
+    color: white;
+}
+.orange-el{
+    color:white ;
+    background-color: #F16623;
+}
+.blue-el{
+    color:#F16623 ;
+    background-color: #18A7B7;
+}
+.navbar-inverse .navbar-nav>li>a{
+    color: white;
+}
+.navbar-inverse .navbar-nav>li>a:hover{
+    color: white;
+    background:#18A7B7 ;
+}
+.active{
+    background-color: #18A7B7;
+}
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover{
+    background-color: #18A7B7;
+}
+.home span{
+    color: white;
+}
+hr.tech {
+    background-color: white;
+}
+body > aside {
+    float: right;
+    width: 200px;
+    background: #F16623;
+    padding: 15px;
+    margin-left: 20px;
+}
+.btn {
+    background-color:  #18A7B7;
+}
+footer{
+    color:#18A7B7 ;
+}
+.hello a:hover {
+    background-color:  #18A7B7;
+    opacity: 0.6;
+}
+.topNav a:hover {
+    background-color: #18A7B7;
+    opacity: 0.6;;
+}
+.post-elemnts {
+    margin: 5px;
+    background-color: #18A7B7;
+    border-radius: 25px;
+}
+.post-container{
+    background: #F16623;
+    margin-bottom: 15px;
+    display: flex;
+    padding: 5px;
+    border-radius: 25px;
+}
+
+
+
+.post-link{
+    color: white;
+}
+.post-link :hover{
+    background: #18A7B7;
+    opacity: 0.6;
+}
+.post-create{
+
+    border-radius: 20%;
+    background-image: url("images/blog_images/header.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    margin-left: 30%;
+    padding: 10px;
+}
+.post-create.view{
+    color: black;
+    border-radius: 75px;
+    background-image: url("images/blog_images/header.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    margin-left: 30%;
+    padding: 10px;
+    min-height: 30%;
+}
+@media only screen and (min-device-width: 768px) {
+    .post-create  {
+
+        border-radius: 75px;
+    }
+}
+.post-form{
+    color:#18A7B7 ;
+    margin-left: 30%;
+}
+.post-form textarea {
+    width: 70%;
+}
+.post-form  text{
+    width: 70%;
+}
+.post-form  sub{
+    width: 70%;
+}
+.submit-post{
+    color: white;
+    background:#18A7B7 ;
+}
+@media only screen and (max-device-width: 768px) {
+    .navbar-brand  {
+
+        display: none;
+    }
+    .post-create{
+        width: 90%;
+        height: 100%;
+        margin: 0%;
+    }
+}
+.reg_form{
+    color: black;
+}
