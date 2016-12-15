@@ -31,44 +31,26 @@
                     <span class="icon-bar"></span>
                 </button>
 
-                <a class="navbar-brand " href="<?=APP_ROOT?>"><img src="/breakingNews/content/images/blog_images/logo.png" width="80" height="50"></a>
+                <a class="navbar-brand " href="<?=APP_ROOT?>"><img src="/breakingNews/content/images/blog_images/logo.png" width="160" height="120"></a>
 
             </div>
-            <div class=" collapse navbar-collapse" id="myNavbar">
+            <div class=" collapse navbar-collapse col-md-10" id="myNavbar">
 
-                <ul class="homeNav nav navbar-nav col-md-10">
+                <ul class="homeNav nav navbar-nav">
                     <li class="active"><a href="<?=APP_ROOT?>/">Home</a></li>
                     <?php if ($this->isLoggedIn) : ?>
                     <li> <a href="<?=APP_ROOT?>/news">News</a></li>
-                    <li> <a href="<?=APP_ROOT?>/news/create">Create Post</a></li>
-                    <li>  <a href="<?=APP_ROOT?>/users">Users</a></li>
+                    <li> <a href="<?=APP_ROOT?>/news/create">Create News</a></li>
 
-                    <div class=" home dropdown col-md-3">
-                        <div class="hello col-md-8 ">
-                            <span>Hello, <b><?=htmlspecialchars($_SESSION['username'])?></b></span>
-                        </div>
-                       <div class="col-md-4">
+                        <li>  <a href="<?=APP_ROOT?>/admin/logout">Logout</a></li>
 
 
-                        <ul class="dropdown-menu">
-                            <li><a href="<?=APP_ROOT?>/users/logout">Logout</a></li>
-                            <li><a href="<?=APP_ROOT?>/users/profile/<?= $_SESSION['user_id']?>">
-                                    Profile
-                                </a></li>
-
-                        </ul>
-                    </div>
-
-              </div  >
-
-                <?php else: ?>
-                </ul>
-
-                <ul style="margin-right: 5px" class=" nav navbar-nav navbar-right">
-                    <li><a href="<?=APP_ROOT?>/users/register"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-                    <li><a href="<?=APP_ROOT?>/users/login"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
                     <?php endif; ?>
                 </ul>
+
+
+
+
 
             </div>
 

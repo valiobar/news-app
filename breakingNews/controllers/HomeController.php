@@ -4,7 +4,7 @@ class HomeController extends BaseController
 {
     function index() {
        $this->news=$this->model->getLastNews();
-        $this->latestnews = array_slice($this->news,0,3);
+        $this->latestnews = $this->news;
     }
 	
 	function view(int $id) {

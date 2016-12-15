@@ -115,7 +115,7 @@ body>main:after {
     margin-top: 12%;
 }
 #myNavbar{
-
+min-height: 150px;
 }
 .homeNav{
 display: inline-block;
@@ -291,12 +291,9 @@ background: none;
     width: 100%;
     height: 100%;
 }
-.tashak
-{
-    background-image: url("images/blog_images/images.png");
-}
+
 .headerHome a{
-color: white;
+ color: #1b6d85;;
 }
 .topNav{
     background-color: white;
@@ -315,7 +312,7 @@ color: white;
     background-color: #18A7B7;
 }
 .navbar-inverse .navbar-nav>li>a{
-    color: white;
+    color: #97C1FB;
 }
 .navbar-inverse .navbar-nav>li>a:hover{
     color: white;
@@ -328,7 +325,7 @@ color: white;
     background-color: #18A7B7;
 }
 .home span{
-    color: white;
+    color: #1b6d85;
 }
 hr.tech {
     background-color: white;
@@ -336,7 +333,7 @@ hr.tech {
 body > aside {
     float: right;
     width: 200px;
-    background: #F16623;
+    background: white;
     padding: 15px;
     margin-left: 20px;
 }
@@ -360,15 +357,20 @@ footer{
     border-radius: 25px;
 }
 .post-container{
-    background: #F16623;
+    background: white;
     margin-bottom: 15px;
     display: flex;
     padding: 5px;
     border-radius: 25px;
 }
 
-
-
+.home-news{
+    color: black;
+}
+.home-news:hover {
+    background-color: #18A7B7;
+    opacity: 0.6;;
+}
 .post-link{
     color: white;
 }
@@ -379,19 +381,18 @@ footer{
 .post-create{
 
     border-radius: 20%;
-    background-image: url("images/blog_images/header.png");
+
     background-repeat: no-repeat;
     background-size:cover;
-    margin-left: 30%;
+
     padding: 10px;
 }
 .post-create.view{
     color: black;
     border-radius: 75px;
-    background-image: url("images/blog_images/header.png");
     background-repeat: no-repeat;
     background-size:cover;
-    margin-left: 30%;
+    margin-bottom: 5%;
     padding: 10px;
     min-height: 30%;
 }
@@ -431,4 +432,21 @@ footer{
 }
 .reg_form{
     color: black;
+}
+.content{
+    word-wrap: break-word;
+}
+.dropdown{
+    color: #1b6d85;
+}
+.post-elemnts{
+    word-wrap: break-word;
+}
+input[type='checkbox'] {
+
+    width:30px;
+    height:30px;
+
+    border-radius:5px;
+    border:2px solid #555;
 }

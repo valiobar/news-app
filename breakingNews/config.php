@@ -11,3 +11,5 @@ define('DB_PASS', '');
 define('DB_NAME', 'news');
 define('IMAGE_ROOT', '/breakingNews/content/images/');
 define('ALBUM_IMAGE_ROOT', '/breakingNews/albumImages/');
+define('TUMB_ROOT', '/breakingNews/content/images/cache/tumbs/');
+define('NEWS_IMG_ROOT', '/breakingNews/content/images/cache/news/');
